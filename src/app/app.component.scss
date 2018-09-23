@@ -1,0 +1,14 @@
+@import '../styles/shared.scss';
+
+:host {
+  width: 1000px;
+  background-color: $color-white;
+  margin: 0 auto;
+  display: block;
+}
+
+@include responsiveTill(1024px) {
+  :host {
+    width: 100%;
+  }
+}

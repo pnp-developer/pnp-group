@@ -1,0 +1,23 @@
+@import '../../../styles/shared.scss';
+
+.navigation-bar {
+  display: flex;
+  padding: 0 20px;
+
+  a {
+    color: $color-medium-gray;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 32px;
+    padding: 10px 0;
+  }
+
+  .active {
+    color: $color-dark-gray;
+
+    &.underline-from__center:before {
+      left: 0;
+      right: 0;
+    }
+  }
+}

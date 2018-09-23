@@ -1,0 +1,42 @@
+@import '../../../styles/shared.scss';
+
+:host {
+  display: block;
+  margin: 0 auto;
+  width: 960px;
+  height: 36px;
+  border-bottom: 1px solid $color-medium-gray;
+}
+
+@include responsiveTill(1024px) {
+  :host {
+    width: 100%;
+    margin-right: 24px;
+  }
+
+  .language-selector {
+    margin-right: 20px;
+  }
+}
+
+.language-selector {
+  float: right;
+  display: flex;
+  align-items: center;
+  height: 100%;
+
+  font-size: $font-size-small;
+  color: $color-medium-gray;
+
+  list-style: none;
+  cursor: pointer;
+
+  ul {
+    margin: 0;
+  }
+
+  li {
+    display: inline-block;
+    margin-left: 8px;
+  }
+}

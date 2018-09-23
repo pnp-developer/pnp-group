@@ -1,0 +1,33 @@
+{
+  "Header": {},
+  "Navigation": {
+    "Home": "Home",
+    "News": "News",
+    "Services": "Services",
+    "Contacts": "Contacts"
+  },
+  "Common": {
+    "Time": {
+      "Minutes": {
+        "Short": "min",
+        "Long": "minutes"
+      }
+    }
+  },
+  "Pages": {
+    "Home": {
+      "About": {
+        "1": "PNP Group is a diversified company with a wide range of products and services. The company includes developed production of textile, construction and food industries, as well as a complex for the production of logistics services.",
+        "2": "The PNP Group's strategy is based on acquiring assets in industries with significant growth potential and consolidation opportunities; investing in large projects with the possibility of control and active management in order to increase the cost; active use of partnerships and alliances to maximize the impact of joint investment.",
+        "3": "For the years of operation of the enterprise PNP Group has established itself as a reliable partner for thousands of customers. Currently, the development of textile and construction materials, the distribution of food products of the extended range, as well as the production of logistics services of a wide range are actively developing.",
+        "4": "We are open for cooperation and we will be very glad to see you as our customers!"
+      }
+    },
+    "Contacts": {
+      "Address": "Adress:",
+      "Phone": "Phones:",
+      "Email": "Email"
+    }
+  },
+  "Footer": {}
+}

@@ -1,0 +1,5 @@
+<div class="image-slider">
+  <div class="" *ngFor="let imageUrl of images; let i = index" [hidden]="i!=(counter%2)">
+    <img [src]="imageUrl"/>
+  </div>
+</div>

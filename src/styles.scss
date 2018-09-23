@@ -1,0 +1,10 @@
+@import './styles/variables.scss';
+
+body {
+  font-family: 'GFS Didot', serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: $color-dark-gray;
+  margin: 0;
+  background-color: $color-gray;
+}

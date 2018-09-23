@@ -1,0 +1,9 @@
+@import '../../../styles/variables.scss';
+
+.home {
+  &__about {
+    font-size: $font-size-large;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}

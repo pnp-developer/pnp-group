@@ -1,0 +1,12 @@
+@import '../../../styles/variables.scss';
+
+li {
+  list-style: none;
+  margin-left: 0;
+  margin-bottom: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: $color-dark-blue;
+}
